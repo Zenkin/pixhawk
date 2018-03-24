@@ -11,3 +11,10 @@
 
         source ubuntu_sim_nuttx.sh
     Wait a few minutes ~ 5-10 min, after restart your computer to complete installation of PX4 development toolchain
+
+5. Download [QGroundControl.AppImage](https://github.com/Zenkin/pixhawk/blob/master/QGround..)
+
+6. Install using the terminal commands:
+
+        chmod +x ./QGroundControl.AppImage
+        ./QGroundControl.AppImage (or double click)
