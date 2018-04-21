@@ -80,9 +80,9 @@ PX4 может использовать широкий диапазон обор
 Все ниже приведенный скрипты устанавливают Qt Creator IDE, Ninja Build System, Common Dependencies, FastRTPS и загружают исходники PX4 на ваш компьютер. Данные скрипты были тестированы на чистой Ubuntu 16.04 LTS. Поэтому что-то может не рабоать или рабоать некорректно, если было установлено заранее. (желательно устанавливать на чистую ОС)
 
 Скрипты:
-+ ubuntu_sim_common_deps.sh: Common Dependencies, jMAVSim simulator  
++ [ubuntu_sim_common_deps.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_common_deps.sh): [Common Dependencies](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#common-dependencies), [jMAVSim simulator](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#jmavsim)  
         Этот скрипт содержит общие зависимост для всех сборок. Он автоматически загружается и запускается, когда вы запускаете другие ниже опианные скрипты
-+ 
++ [ubuntu_sim.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim.sh): ubuntu_sim_common_deps.sh + [Gazebo8](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#gazebo) симулятор. 
 +
 +
 
