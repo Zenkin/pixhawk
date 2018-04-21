@@ -88,21 +88,12 @@ PX4 может использовать широкий диапазон обор
 + [ubuntu_sim_ros_gazebo.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_ros_gazebo.sh): ubuntu_sim_common_deps.sh + [ROS/Gazebo and MAVROS](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)
         Устанавливает ROS Kinetic с Gazebo7. Рабочее пространство будет создано в ~/catkin_ws/
 
-1. On the command prompt enter:
+#### Как использовать?
 
-        sudo usermod -a -G dialout $USER
-2. Logout and login again
+Сделать пользователя челном группы "dialout" 
 
-3. Download [ubuntu_sim_nuttx.sh](https://github.com/Zenkin/pixhawk/blob/master/ubuntu_sim_nuttx.sh)
+      sudo usermod -a -G dialout $USER
+Выйти и зайти в систему (logout/login)  
+Это необходимо будет сделать один раз
 
-4. Run the script in a bash shell:
-
-        source ubuntu_sim_nuttx.sh
-    Wait a few minutes ~ 5-10 min, after restart your computer to complete installation of PX4 development toolchain
-
-5. Download QGroundControl.AppImage
-
-6. Install using the terminal commands:
-
-        chmod +x ./QGroundControl.AppImage
-        ./QGroundControl.AppImage (or double click)
+Далее просто запускаем желаемы скрипт, заранее дав права на исполнение
