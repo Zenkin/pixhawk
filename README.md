@@ -83,8 +83,10 @@ PX4 может использовать широкий диапазон обор
 + [ubuntu_sim_common_deps.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_common_deps.sh): [Common Dependencies](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#common-dependencies), [jMAVSim simulator](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#jmavsim)  
         Этот скрипт содержит общие зависимост для всех сборок. Он автоматически загружается и запускается, когда вы запускаете другие ниже опианные скрипты
 + [ubuntu_sim.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim.sh): ubuntu_sim_common_deps.sh + [Gazebo8](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#gazebo) симулятор. 
-+
-+
++ [ubuntu_sim_nuttx.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh): ubuntu_sim.sh + NuttX tools  
+        Необходимо будет перезагрузить компьютер после успешной установки
++ [ubuntu_sim_ros_gazebo.sh](https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_ros_gazebo.sh): ubuntu_sim_common_deps.sh + [ROS/Gazebo and MAVROS](https://dev.px4.io/en/setup/dev_env_linux_ubuntu.html#rosgazebo)
+        Устанавливает ROS Kinetic с Gazebo7. Рабочее пространство будет создано в ~/catkin_ws/
 
 1. On the command prompt enter:
 
