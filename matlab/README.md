@@ -24,3 +24,8 @@
 #### Для нескольких параметров входного воздействия   
 + (t = 10 сек):      
 ![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/const_test_mult_10.jpg "")   
+#### Ступенчатое воздействие   
++ (t = 15 сек):      
+![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/step_15.jpg "")   
++ (t = 1000 сек):   
+![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/step_1000.jpg "") 
