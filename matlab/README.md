@@ -16,7 +16,11 @@
 ![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/test_2_1000.jpg "")   
 Как видно из выше приведённых графиков перед нами консервативное звено   
 ### Входное воздействие - константа
+#### Для нескольких параметров a0: -5, -10, -15, -20, -30, -40   
 + (t = 10 сек):      
 ![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/const_test_10.jpg "")   
 + (t = 1000 сек):   
 ![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/const_test_1000.jpg "") 
+#### Для нескольких параметров входного воздействия   
++ (t = 10 сек):      
+![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/const_test_mult_10.jpg "")   
