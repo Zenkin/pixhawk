@@ -12,4 +12,5 @@
 + (t = 100 сек):      
 ![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/test_1_100.jpg "")   
 + (t = 1000 сек):   
-![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/test_2_1000.jpg "") 
+![](https://github.com/Zenkin/pixhawk/blob/master/matlab/pic/test_2_1000.jpg "")   
+Как видно из выше приведённых графиков перед нами консервативное звено   
